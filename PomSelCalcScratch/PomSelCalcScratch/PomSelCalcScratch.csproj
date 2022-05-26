@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <Compile Remove="Drivers\BrowserDriver.cs" />
+    <Compile Remove="Hooks\CalculatorHooks.cs" />
+    <Compile Remove="Hooks\SharedBrowserHooks.cs" />
     <Compile Remove="PageObjects\CalculatorPageObject.cs" />
   </ItemGroup>
 
@@ -26,6 +28,8 @@
 
   <ItemGroup>
     <None Include="Drivers\BrowserDriver.cs" />
+    <None Include="Hooks\CalculatorHooks.cs" />
+    <None Include="Hooks\SharedBrowserHooks.cs" />
     <None Include="PageObjects\CalculatorPageObject.cs" />
   </ItemGroup>
 
